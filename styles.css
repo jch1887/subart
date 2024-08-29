@@ -41,7 +41,8 @@ section {
     padding: 50px 20px; /* Padding for sections */
     background-color: #000; /* Set section background to black */
     display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center content horizontally */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
 }
 
 #contact-form {
