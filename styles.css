@@ -1,100 +1,93 @@
-/* General Styles */
 body {
-    font-family: 'Press Start 2P', cursive; /* Retro font */
-    background-color: #000; /* Black background */
-    color: #fff; /* White text */
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent header */
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
-    text-align: center; /* Centered text */
+    text-align: center;
 }
 
 nav ul {
-    list-style: none; /* Remove default list styling */
+    list-style: none;
     padding: 0;
 }
 
 nav a {
-    color: #fff; /* White link color */
-    text-decoration: none; /* Remove underline */
-    margin: 0 15px; /* Space between links */
-    font-size: 1.2rem; /* Slightly larger font for navigation links */
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
 }
 
-/* Background Section */
 .background {
-    background-image: url('path/to/your/lofi-background.jpg'); /* Background image */
-    background-size: cover; /* Cover the entire section */
-    background-position: center; /* Center the background image */
-    padding: 100px 20px; /* Padding around the content */
-    text-align: center; /* Center text */
+    background-image: url('path/to/your/lofi-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
 }
 
-/* Headings */
 h2 {
-    font-size: 2.5rem; /* Size of the heading */
-    margin-bottom: 20px; /* Space below the heading */
-    text-align: center; /* Center the heading text */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-/* Section Styles */
 section {
-    padding: 50px 20px; /* Padding for sections */
-    background-color: #000; /* Set section background to black */
-    display: flex; /* Use flexbox for centering */
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
+    padding: 50px 20px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Contact Form Styles */
 #contact-form {
-    width: 100%; /* Full width for responsiveness */
-    max-width: 500px; /* Max width for the form */
+    width: 100%;
+    max-width: 500px;
 }
 
 form {
-    display: flex; /* Flexbox for layout */
-    flex-direction: column; /* Stack form elements vertically */
-    background-color: #111; /* Dark background for the form */
-    padding: 20px; /* Padding inside the form */
-    border-radius: 10px; /* Rounded corners for the form */
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-/* Input and Button Styles */
 label {
-    margin: 10px 0 5px; /* Space around labels */
+    margin: 10px 0 5px;
 }
 
 input, textarea {
-    padding: 10px; /* Padding for inputs and textareas */
-    margin-bottom: 20px; /* Space below each element */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #444; /* Dark background for inputs */
-    color: #fff; /* White text color */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
 }
 
 button {
-    padding: 10px; /* Padding inside button */
-    background-color: #ff4081; /* Button color */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    color: white; /* White text color */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth background color change */
+    padding: 10px;
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ff79b0; /* Lighter pink on hover */
+    background-color: #ff79b0;
 }
 
-/* Footer Styles */
 footer {
-    text-align: center; /* Center text in footer */
-    padding: 20px; /* Padding in footer */
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent footer */
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
 }
