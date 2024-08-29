@@ -15,12 +15,15 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 10px 15px;
     font-size: 1.2rem;
     position: relative;
 }
@@ -112,7 +115,7 @@ footer {
 }
 
 footer a {
-    color: #00ff00; /* Green color for footer links */
+    color: #00ff00;
     text-decoration: none;
     position: relative;
 }
@@ -131,4 +134,39 @@ footer a::after {
 footer a:hover::after {
     width: 100%;
     left: 0;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .background {
+        padding: 70px 15px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    nav a {
+        font-size: 1rem;
+        margin: 5px 10px;
+    }
+
+    #contact-form {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .youtube-embed iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 1rem;
+    }
 }
