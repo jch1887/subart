@@ -51,6 +51,25 @@ nav a:hover::after {
     left: 0;
 }
 
+.text-block {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Start position for animation */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth appearance */
+}
+
+.text-block.visible {
+    opacity: 1; /* Make visible */
+    transform: translateY(0); /* Move to final position */
+}
+
 .background {
     background-image: url('path/to/your/lofi-background.jpg');
     background-size: cover;
