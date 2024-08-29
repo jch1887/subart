@@ -40,6 +40,13 @@ h2 {
 section {
     padding: 50px 20px; /* Padding for sections */
     background-color: #000; /* Set section background to black */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+}
+
+#contact-form {
+    width: 100%; /* Full width for responsiveness */
+    max-width: 500px; /* Max width for the form */
 }
 
 footer {
@@ -51,6 +58,9 @@ footer {
 form {
     display: flex; /* Flexbox for layout */
     flex-direction: column; /* Stack form elements vertically */
+    background-color: #111; /* Dark background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 10px; /* Rounded corners for the form */
 }
 
 label {
