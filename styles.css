@@ -1,6 +1,6 @@
 body {
     font-family: 'Press Start 2P', cursive; /* Change to the 90s font */
-    background-color: #2c2c2c; /* Dark background */
+    background-color: #000; /* Set the overall background to black */
     color: #fff; /* White text */
     margin: 0;
     padding: 0;
@@ -39,6 +39,7 @@ h2 {
 
 section {
     padding: 50px 20px; /* Padding for sections */
+    background-color: #000; /* Set section background to black */
 }
 
 footer {
@@ -57,4 +58,24 @@ label {
 }
 
 input, textarea {
-    padding: 10px; /* Padding for inputs a
+    padding: 10px; /* Padding for inputs and textareas */
+    margin-bottom: 20px; /* Space below each element */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #444; /* Dark background for inputs */
+    color: #fff; /* White text color */
+}
+
+button {
+    padding: 10px; /* Padding inside button */
+    background-color: #ff4081; /* Button color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+button:hover {
+    background-color: #ff79b0; /* Lighter pink on hover */
+}
