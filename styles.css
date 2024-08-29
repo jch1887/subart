@@ -72,6 +72,12 @@ nav a:hover::after {
 }
 
 
+.text-block.visible {
+    opacity: 1; /* Make visible */
+    transform: translateY(0); /* Move to final position */
+}
+
+
 .background {
     background-image: url('path/to/your/lofi-background.jpg');
     background-size: cover;

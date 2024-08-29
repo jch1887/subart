@@ -11,9 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 textBlock.classList.add('visible');
+                observer.unobserve(textBlock); // Stop observing after animation
             }
         });
-    });
+    }, { threshold: 0.1 }); // Trigger when 10% of the block is visible
 
     observer.observe(textBlock);
 });
+
