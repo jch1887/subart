@@ -8,8 +8,15 @@ body {
 
 header {
     background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 30%;
+    height: auto;
 }
 
 nav ul {
@@ -136,7 +143,6 @@ footer a:hover::after {
     left: 0;
 }
 
-/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     h2 {
         font-size: 2rem;
