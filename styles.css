@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Press Start 2P', cursive; /* Retro font */
     background-color: #000; /* Black background */
@@ -24,6 +25,7 @@ nav a {
     font-size: 1.2rem; /* Slightly larger font for navigation links */
 }
 
+/* Background Section */
 .background {
     background-image: url('path/to/your/lofi-background.jpg'); /* Background image */
     background-size: cover; /* Cover the entire section */
@@ -32,11 +34,14 @@ nav a {
     text-align: center; /* Center text */
 }
 
+/* Headings */
 h2 {
-    font-size: 2.5rem; /* Size of the subart Radio heading */
+    font-size: 2.5rem; /* Size of the heading */
     margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the heading text */
 }
 
+/* Section Styles */
 section {
     padding: 50px 20px; /* Padding for sections */
     background-color: #000; /* Set section background to black */
@@ -45,15 +50,10 @@ section {
     align-items: center; /* Center children horizontally */
 }
 
+/* Contact Form Styles */
 #contact-form {
     width: 100%; /* Full width for responsiveness */
     max-width: 500px; /* Max width for the form */
-}
-
-footer {
-    text-align: center; /* Center text in footer */
-    padding: 20px; /* Padding in footer */
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent footer */
 }
 
 form {
@@ -64,6 +64,7 @@ form {
     border-radius: 10px; /* Rounded corners for the form */
 }
 
+/* Input and Button Styles */
 label {
     margin: 10px 0 5px; /* Space around labels */
 }
@@ -89,4 +90,11 @@ button {
 
 button:hover {
     background-color: #ff79b0; /* Lighter pink on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center text in footer */
+    padding: 20px; /* Padding in footer */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent footer */
 }
